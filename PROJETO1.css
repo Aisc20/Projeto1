@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(26, 24, 24);
+    color: white;
+    margin: 0px;
+}
+
+.principal{
+    padding: 1px;
+    background-image: url(pexels-pixabay-247791.jpg);
+    border-bottom: 10px solid #ffffff;
+    
+    
+}
+
+.container{
+    margin: 50px 40px 0;
+    width: 500px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.container h1{
+    font-size: 55px;
+    text-shadow: 2px 2px 1px #d6b6b6;
+    text-transform: uppercase;
+}
+
+.container p{
+    border-bottom: 3px solid #855454 ;;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 100px;
+    font-size: 15px;
+    width: fit-content;
+}
+
+.principal nav ul{
+    margin: 20px 50px 0px 0px;
+    text-align: right;
+}
+
+.principal nav li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+    border: 2px solid #855454;
+    margin-left: 15px;
+    background-color: #ffffff;
+}
+
+.principal nav a{
+    font-size: 13px;
+    color: #000000;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
+.principal nav a:hover{
+    padding: 5px;
+}
+
+main{
+   width: 80%;
+   margin: auto;
+}
+
+section{
+    margin-top: 100px;
+}
+
+article{
+ background-color: white;
+ padding: 16px;
+ margin-bottom: 32px;
+
+}
+
+article h2{
+    color: rgb(255, 255, 255);
+    background-color: #855454;
+    padding: 5px;
+    border: 5px solid #855454;
+}
+
+main article p{
+     color: #000000;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a.btm{
+    color: rgb(255, 255, 255);
+    background-color: #855454;
+    padding: 9px;
+    display: block;
+    border-radius: 6px;
+    margin-left: auto;
+    width: fit-content;
+}
+
+.rodapé{
+    color:#000000;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: 30px solid white;
+    margin-top: 100px;
+
+}
